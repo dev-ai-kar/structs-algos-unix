@@ -2,6 +2,7 @@
  *  Compilation:  javac-introcs Barnsley.java
  *  Execution:    java-introcs Barnsley n
  *  Dependencies: StdDraw.java
+ *  Example: n = 10000
  *
  *  Play chaos game to produce Barnsley's fern.
  *

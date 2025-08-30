@@ -86,7 +86,9 @@
   "keyToString": {
     "Application.Barnsley.executor": "Run",
     "Application.CollidingDisks.executor": "Run",
+    "Application.HelloGoodbye.executor": "Run",
     "Application.HelloWorld.executor": "Run",
+    "Application.RandomWord.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "/home/deokar/Code/structs-algos-unix/code",
     "project.structure.last.edited": "Libraries",
@@ -95,7 +97,7 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CollidingDisks">
+  <component name="RunManager" selected="Application.RandomWord">
     <configuration name="Barnsley" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Barnsley" />
       <module name="Algorithms, Part I" />
@@ -108,9 +110,21 @@
       <option name="PROGRAM_PARAMETERS" value="100" />
       <method v="2" />
     </configuration>
+    <configuration name="HelloGoodbye" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="HelloGoodbye" />
+      <module name="Algorithms, Part I" />
+      <option name="PROGRAM_PARAMETERS" value="Vaibhav Deokar" />
+      <method v="2" />
+    </configuration>
     <configuration name="HelloWorld" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="HelloWorld" />
       <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RandomWord" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="RandomWord" />
+      <module name="Algorithms, Part I" />
+      <option name="PROGRAM_PARAMETERS" value="heads tails" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
