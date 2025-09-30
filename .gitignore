@@ -28,3 +28,5 @@ replay_pid*
 
 # Zone.Identifier files
 *:Zone.Identifier
+
+/videos/
