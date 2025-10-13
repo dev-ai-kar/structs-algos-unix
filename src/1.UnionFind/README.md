@@ -1,0 +1,37 @@
+# Union-Find Data Structure
+
+## Overview
+Union−Find is a data structure that supports dynamic connectivity problems. This implementation explores:
+- Quick Find
+- Quick Union
+- Weighted Quick Union
+- Weighted Quick Union with Path Compression
+
+We'll apply these concepts to solve the percolation problem from physical chemistry.
+
+## Analysis of Tree Depth
+The maximum depth of any node x is at most lg N (where lg is log base 2)
+
+### Proof
+1. When tree T1 containing x merges with T2:
+   - The size of tree containing x at least doubles
+   - This occurs because x's tree is always the smaller one
+2. Depth only increases by 1 when merging with same-size tree
+
+### Depth Growth Pattern
+| Tree Size | Maximum Depth |
+|-----------|---------------|
+| 1         | 0            |
+| 2         | 1            |
+| 4         | 2            |
+| 8         | 3            |
+| 16        | 4            |
+| 32        | 5            |
+| N         | lg(N)        |
+
+## Performance
+Weighted Quick Union with Path Compression is linearithmic: O(N + M lg N)
+- N = number of objects
+- M = number of union-find operations
+
+For detailed proof, see: [Princeton's Algorithms Course](https://algs4.cs.princeton.edu/15uf/)
