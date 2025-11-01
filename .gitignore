@@ -30,3 +30,7 @@ replay_pid*
 *:Zone.Identifier
 
 /videos/
+
+tmp/
+
+.idea/
